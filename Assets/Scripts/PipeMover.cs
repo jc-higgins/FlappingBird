@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PipeMover : MonoBehaviour
 {
-    public float speed = 2f;   
-    public float leftBound = -10f;
+    public float speed = 250f;   
+    public float leftBound = -200f;
 
     // Update is called once per frame
     void Update()

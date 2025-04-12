@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BirdController : MonoBehaviour
 {
-    public float flapForce = 5f;
+    public float flapForce = 25f;
     
     private Rigidbody2D rb;
 

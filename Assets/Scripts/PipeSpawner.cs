@@ -3,9 +3,9 @@ using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
     public GameObject pipePrefab;
-    public float spawnRate = 1.5f;
-    public float miny = -1f;
-    public float maxy = 2f;
+    public float spawnRate = 3f;
+    public float miny = -300f;
+    public float maxy = 600f;
 
     private float timer = 0f;
 

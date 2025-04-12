@@ -23,7 +23,7 @@ public class PipeSpawner : MonoBehaviour
     // Spawn a pipe gate with a random offset
     void SpawnPipe()
     {
-        float yOffset = Random.range(miny, maxy);
+        float yOffset = Random.Range(miny, maxy);
         Vector3 spawnPos = new Vector3(transform.position.x, yOffset, 0);
         Instantiate(pipePrefab, spawnPos, Quaternion.identity);
     }
